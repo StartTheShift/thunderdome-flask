@@ -15,7 +15,7 @@ setup(
     name='thunderdome-flask',
     version=version,
     description='Thunderdome Flask integration',
-    dependency_links=['https://github.com/etscrivner/thunderdome-flask/archive/{0}.tar.gz#egg=thunderdome-flask-{0}'.format(version)],
+    dependency_links=['https://github.com/StartTheShift/thunderdome-flask/archive/{0}.tar.gz#egg=thunderdome-flask-{0}'.format(version)],
     long_description=long_desc,
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -31,7 +31,7 @@ setup(
     keywords='cassandra,titan,ogm,thunderdome',
     author='etscrivner',
     author_email='zenogais@gmail.com',
-    url='https://github.com/etscrivner/thunderdome-flask',
+    url='https://github.com/StartTheShift/thunderdome-flask',
     license='BSD',
     packages=find_packages(),
     include_package_data=True,
